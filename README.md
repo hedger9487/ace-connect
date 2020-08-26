@@ -31,14 +31,14 @@ pip install pyswip
 ```
 ### APE - ACE Parsing Engine
 
-You would probably need to recompile the `ape.exe` file. Go to [their Github Page](https://github.com/Attempto/APE) clone it and run 
+You would probably need to recompile the `ape.exe` file. Go to [their Github Page](https://github.com/Attempto/APE) clone it or you could use the submodule provided in this repository and run 
 
 ```bash
 # POSIX compliant
+cd APE
 make install
-
-# DOS compliant
-make_exe.bat
+mv ape.exe ..
+cd ..
 ```
 
 ## Execution
