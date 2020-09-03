@@ -1,6 +1,8 @@
-lib/
-lib64/
 bin/
 share/
 lib/
 pyvenv.cfg
+lib64
+lib
+ape.exe
+text.owl
