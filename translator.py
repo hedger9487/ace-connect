@@ -14,4 +14,3 @@ elif os.name == 'nt':
 if __name__ == "__main__":
     file = open("text.owl", "w")
     command = subprocess.run([ape, '-file', 'nl.txt', '-solo', 'owlxml', '-guess'], stdout=file)
-    file.write(str(command.stdout))
