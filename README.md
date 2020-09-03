@@ -2,6 +2,12 @@
 
 > This is a temporary repository, it should be deprecated as upstream. This repository is for the backend of a friends website
 
+# Git clone 
+
+```bash
+git clone --recurse-submodule <url> <name>
+```
+
 ## Environment requirements
 
 Please setup `python >= 3.7`, `pip` and the listing below. Other versions might work but aren't tested.
@@ -23,7 +29,8 @@ source <venv>/bin/activate
 
 ### SWI-Prolog
 
-The libraries of the `ape.exe` file may require the libraries of [SWI-Prolog](https://www.swi-prolog.org/) go and download it.
+The libraries of the `ape.exe` file may require the libraries of [SWI-Prolog](https://www.swi-prolog.org/) go and download it. Or if you're on Linux, you could search on your package manager. 
+
 ### Python packages
 
 ```bash
