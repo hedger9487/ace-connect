@@ -55,7 +55,3 @@ python3 translator.py
 ```
 
 This would make the translator app input the natural language text file, `nl.txt ` and turn it into a OWL/XML format of output `text.owl`.
-
-## Known issues
-
-1. On RHEL-based OS, the `swi-prolog` binaries might be in a different place and with different commands. Would recommend you to recompile the source binaries.
